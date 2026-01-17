@@ -1,6 +1,7 @@
 # WebDevProjects
 
-[Dicee Game](https://ebad8931.github.io/WebDevProjects/DiceeGame)  
-[Drum Kit](https://ebad8931.github.io/WebDevProjects/DrumKit)  
-[Simon Game](https://ebad8931.github.io/WebDevProjects/SimonGame)  
-[Rock Paper Scissors](https://ebad8931.github.io/WebDevProjects/RockPaperScissors)  
+[ABC Web Design](https://ebad8931.github.io/web-dev-projects/abc-web-design)
+[Dicee Game](https://ebad8931.github.io/web-dev-projects/dice-game)  
+[Drum Kit](https://ebad8931.github.io/web-dev-projects/drum-kit)  
+[Simon Game](https://ebad8931.github.io/web-dev-projects/simon-game)  
+[Budgety](https://ebad8931.github.io/web-dev-projects/budgety)
