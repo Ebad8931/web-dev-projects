@@ -4,5 +4,5 @@
 [Dice Game](https://ebad8931.github.io/web-dev-projects/dice-game)  
 [Drum Kit](https://ebad8931.github.io/web-dev-projects/drum-kit)  
 [Simon Game](https://ebad8931.github.io/web-dev-projects/simon-game)  
-[Budgety](https://ebad8931.github.io/web-dev-projects/budgety)
+[Budgety](https://ebad8931.github.io/web-dev-projects/budgety)  
 [Guess My Number](https://ebad8931.github.io/web-dev-projects/guess-my-number)
