@@ -63,12 +63,11 @@ checkBtn.addEventListener("click", () => {
             messageEl.textContent =
                 guessedNumber > secretNumber ? "📈 Too high!" : "📉 Too low!";
             score--;
-            scoreEl.textContent = score;
         } else {
             // game over path
             messageEl.textContent = "💥 You lost the game!";
-            scoreEl.textContent = 0;
+            score = 0;
         }
-
+        scoreEl.textContent = score;
     }
 });
