@@ -25,3 +25,7 @@ modalOpenButtons.forEach(modalButton => {
 modalCloseButton.addEventListener('click', closeModalWindow);
 
 overlay.addEventListener('click', closeModalWindow);
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModalWindow();
+});
