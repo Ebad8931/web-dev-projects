@@ -14,6 +14,8 @@ const highscoreEl = document.querySelector(".highscore");
 const numberEl = document.querySelector(".number");
 const againBtn = document.querySelector(".again");
 
+const body = document.querySelector("body");
+
 // event listener added to again button to reset the game
 againBtn.addEventListener('click', () => {
     score = 20;
@@ -23,6 +25,9 @@ againBtn.addEventListener('click', () => {
     messageEl.textContent = "Start guessing...";
     numberEl.textContent = '?';
     guessInput.value = '';
+
+    body.style.backgroundColor = '#222';
+    numberEl.style.width = '15rem';
 });
 
 // add event listener to check button
@@ -55,6 +60,9 @@ checkBtn.addEventListener("click", () => {
 
         highscore = score > highscore ? score : highscore;
         highscoreEl.textContent = highscore;
+
+        body.style.backgroundColor = '#60b347';
+        numberEl.style.width = '30rem';
 
     } else {
         // wrong guess -> check if game over, or reduce score
