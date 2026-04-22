@@ -6,4 +6,5 @@
 [Simon Game](https://ebad8931.github.io/web-dev-projects/simon-game)  
 [Budgety](https://ebad8931.github.io/web-dev-projects/budgety)  
 [Guess My Number](https://ebad8931.github.io/web-dev-projects/guess-my-number)  
-[Modal Window](https://ebad8931.github.io/web-dev-projects/modal-window)
+[Modal Window](https://ebad8931.github.io/web-dev-projects/modal-window)  
+[Bankist Landing Page](https://ebad8931.github.io/web-dev-projects/bankist-landing-page)
