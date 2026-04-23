@@ -27,3 +27,18 @@ overlay.addEventListener('click', closeModal);
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeModal();
 });
+
+// cookie message
+const message = document.createElement('div');
+message.classList.add('cookie-message');
+message.innerHTML = 'We use cookies for improved functionality and analytics. <button class="btn btn--close-cookie">Got it!</button>';
+
+message.querySelector('.btn').addEventListener('click', () => {
+    message.remove();
+});
+
+const header = document.querySelector(".header");
+header.append(message);
+
+message.style.backgroundColor = '#37383d';
+message.style.height = Number.parseInt(getComputedStyle(message).height) + 30 + 'px';
