@@ -42,3 +42,14 @@ header.append(message);
 
 message.style.backgroundColor = '#37383d';
 message.style.height = Number.parseInt(getComputedStyle(message).height) + 30 + 'px';
+
+// smooth scrolling
+const btnToScroll = document.querySelector('.btn--scroll-to');
+btnToScroll.addEventListener('click', () => {
+    const s1Coords = document.querySelector('#section--1').getBoundingClientRect();
+    window.scrollTo({
+        left: s1Coords.left + pageXOffset,
+        top: s1Coords.top + pageYOffset,
+        behavior: 'smooth'
+    });
+});
