@@ -71,11 +71,8 @@ btnRight.addEventListener('click', () => {
     } else {
         currSlide++;
     }
-    console.log(currSlide);
     slides.forEach((s, i) => {
-        console.log(s, i, currSlide);
         s.style.transform = `translateX(${(i - currSlide) * 100}%)`;
-        console.log(s, i, currSlide);
     });
 });
 
