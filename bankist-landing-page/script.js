@@ -53,9 +53,6 @@ btnToScroll.addEventListener('click', () => {
 // slider
 const slider = document.querySelector('.slider');
 
-// slider.style.transform = 'scale(0.4) translateX(-800px)';
-// slider.style.overflow = 'visible';
-
 const slides = document.querySelectorAll('.slide');
 
 let currSlide = 0;
